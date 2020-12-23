@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<link rel="stylesheet" href="CSS/background.css">
+		<link rel="stylesheet" href="CSS/menu-horizontal.css">
+		<link rel="stylesheet" href="CSS/video.css">
+		<meta charset="utf-8">
+		<title>CCF D'ART timothée Maire</title>
+
+        <script type="text/javascript">
+    //<!--
+        function change_onglet(name)
+        {
+            document.getElementById('onglet_'+anc_onglet).className = 'onglet_0 onglet';
+            document.getElementById('onglet_'+name).className = 'onglet_1 onglet';
+            document.getElementById('contenu_onglet_'+anc_onglet).style.display = 'none';
+            document.getElementById('contenu_onglet_'+name).style.display = 'block';
+            anc_onglet = name;
+        }
+    //-->
+    </script>
+    <style type="text/css">
+    html
+    {
+        overflow-x: hidden;
+        overflow-y: hidden; 
+    }
+    .onglet
+    {
+        display:inline-block;
+        margin-left:3px;
+        margin-right:3px;
+        padding:3px;
+        border:2px solid black;
+        cursor:pointer;
+        position: relative;
+        bottom: 20em;
+    }
+    .onglet_0
+    {
+        background-color:#bbbbbb;
+        border-bottom:1px solid black;
+        
+    }
+    .contenu_onglet
+    {
+        background-color:   #dddddd;
+        border:1px solid black;
+        margin-top:-1px;
+        padding:5px;
+        display:none;
+        position: relative;
+        bottom: 20em;
+    }
+    .contenu_onglets
+    {
+        position: relative;
+        
+    }
+    ul
+    {
+        margin-top:0px;
+        margin-bottom:0px;
+        margin-left:-10px
+    }
+    h1
+    {
+        margin:0px;
+        padding:0px;
+    }
+    .border
+    {
+        padding: 0px;
+        width: 21em;
+        margin-left: 1%;
+        margin-top: 1%;
+        text-align: center;
+    }
+    </style>
+	</head>
+	<body>
+        <a href="ccf.html"><img src="css\images\logo-bleach.png" alt="logo bleach"></a>
+		<header>
+			<nav>
+                <ul class="niveau1">
+                <li title=" retour a l'accueil"><a class=fra href="ccf.html">Accueil</a></li>
+                <li class="sousmenu"><a class=fra href="histoire.html">Histoire</a>
+                   <ul class="niveau2">
+                      <li><a class=fra href="episode.html">date episode</a></li>
+                      <li><a class=fra href="manga.html">date manga</a></li>
+                  </ul>
+              </li>
+              <li><a class=fra href="univers.html">Univers</a></li>
+              <li><a class=fra href="zanpakuto.html">Arme/Zanpakuto</a></li>
+                        <li class="sousmenu"><a class=fra href="perso1.html">Personnage</a>
+                    <ul class="niveau2" id="scrollmenu">
+                        <div>
+                        <li><a class=fra href="perso1.html#ichi1">Ichigo Kurosaki</a></li>
+                        <li><a class=fra href="perso1.html#issh1">Isshin Kurosaki</a></li>
+                        <li><a class=fra href="perso1.html#masa1">Masaki Kurosaki</a></li>
+                        <li><a class=fra href="perso1.html#kari1">Karin Kurosaki</a></li>
+                        <li><a class=fra href="perso1.html#yuzu1">Yuzu Kurosaki</a></li>
+                        <li><a class=fra href="perso1.html#uryu1">Uryu Ishida</a></li>
+                        <li><a class=fra href="perso1.html#orih1">Orihime Inoue</a></li>
+                        <li><a class=fra href="perso1.html#yasu1">Yasutora sado</a></li>
+                        <li><a class=fra href="perso1.html#ruki1">Rukia Kuchiki</a></li>
+                        <li><a class=fra href="perso1.html#byak1">Byakuya Kuchiki</a></li>
+                        <li><a class=fra href="perso1.html#renj1">Renji Abarai</a></li>
+                        <li><a class=fra href="perso1.html#ikka1">Ikkaku madarame</a></li>
+                        <li><a class=fra href="perso1.html#kenp1">Kenpachi Zaraki</a></li>
+                        <li><a class=fra href="perso1.html#yach1">Yachiru kusajishi</a></li>
+                        <li><a class=fra href="perso1.html#yoru1">Yoruichi shihouin</a></li>
+                        <li><a class=fra href="perso1.html#tosh1">Toshiro hitsugaya</a></li>
+                        <li><a class=fra href="perso1.html#rang1">Rangiku Matsumoto</a></li>
+                        <li><a class=fra href="perso1.html#sosu1">Sosuke Aizen</a></li>
+                        <li><a class=fra href="perso1.html#kisu1">Kisuke Urahara</a></li>
+                        <li><a class=fra href="perso1.html#mayu1">Mayuri Kurotsuchi</a></li>
+                        <li><a class=fra href="perso1.html#yama1">Yamamoto Genryusai</a></li>
+                        <li><a class=fra href="perso1.html#jush1">Jushiro Ukitake</a></li>
+                        <li><a class=fra href="perso1.html#ulqu1">ulquiorra schiffer</a></li>
+                        <li><a class=fra href="perso1.html#shun1">shunsui kyoraku</a></li>
+                        <li><a class=fra href="perso1.html#grim1">Grimmjow jaggerjack</a></li>
+                        <li><a class=fra href="perso1.html#nell1">nelleil tu oderschvank</a></li>
+                        <li><a class=fra href="perso1.html#hall1">Tia Hallibel</a></li>
+                        <li><a class=fra href="perso1.html#rets1">retsu Unohana</a></li>
+                        <li><a class=fra href="perso1.html#kugo1">Kugo Ginjo</a></li>
+                        <li><a class=fra href="perso1.html#soif1">Soifon</a></li>
+                        <li><a class=fra href="perso1.html#shin1">Shinji Hirako</a></li>
+                        <li><a class=fra href="perso1.html#coyo1">Coyote Stark</a></li>
+                        <li><a class=fra href="perso1.html#kuka1">Kukaku Shiba</a></li>
+                        <li><a class=fra href="perso1.html#riru1">Riruka dokugamine</a></li>
+                        <li><a class=fra href="perso1.html#saji1">Sajin Komamura</a></li>
+                        <li><a class=fra href="perso1.html#izur1">Izuru Kira</a></li>
+                        <li><a class=fra href="perso1.html#tats1">Tatsuki Arisawa</a></li>
+                        <li><a class=fra href="perso1.html#kens1">Kensei Muguruma</a></li>
+                        <li><a class=fra href="perso1.html#urur1">Ururu Tsumugiya</a></li>
+                        <li><a class=fra href="perso1.html#noit1">N'Noitra Jirga</a></li>
+                        <li><a class=fra href="perso1.html#isan1">Isane Kotetsu</a></li>
+                        <li><a class=fra href="perso1.html#yamm1">Yammy Rialgo</a></li>
+                        <li><a class=fra href="perso1.html#kari1">Jin Kariya</a></li>
+                        <li><a class=fra href="perso1.html#ganj1">Ganju Shiba</a></li>
+                        <li><a class=fra href="perso1.html#yumi1">Yumichika Ayasegawa</a></li>
+                        <li><a class=fra href="perso1.html#keig1">Keigo Asano</a></li>
+                        <li><a class=fra href="perso1.html#mash1">Mashiro Kuna</a></li>
+                        <li><a class=fra href="perso1.html#shis1">Moe Shishigawara</a></li>
+                        <li><a class=fra href="perso1.html#fran1">Franceska Mila Rose</a></li>
+                        <li><a class=fra href="perso1.html#gin1">Gin Ichimaru</a></li>
+                        <li><a class=fra href="perso1.html#shuk1">Shukuro Tsukishima</a></li>
+                    </div>
+                    </ul>
+                    </li>
+                    <li><a class=fra href="dessin.html">style de dessin</a></li>
+                    </ul>
+                </nav>
+			</header>
+		<br><br>
+		<p class=presentation>
+			Bleach (BLEACH, ブリーチ, Burīchi?) est un shōnen manga écrit et illustré par Tite Kubo. Il est prépublié dans l'hebdomadaire Weekly Shōnen Jump de l'éditeur Shūeisha du 20 août 2001 au 22 août 2016 et est compilé en 74 tomes au 4 novembre 20161. La version française du manga est publiée par Glénat du 17 juillet 20032 au 6 septembre 2017 avec 74 tomes. Avec 120 millions de volumes commercialisés, c'est l'un des mangas les plus vendus au monde.
+            <br>
+            Face au succès, le manga est adapté par le studio Pierrot en série télévisée d'animation de 366 épisodes, portant le même nom, diffusée du 5 octobre 2004 au 27 mars 2012 sur TV Tokyo.
+		</p>
+        <br><br>
+        <div class=tome>
+            <p class="tome2">regarder le premier tome du manga bleach sur ce site</p>
+        <a href="https://littlexgarden.com/bleach/1/4" target="_blank"><img class="tome1"  src="css\images\bleach-tome-1.jpeg" ></a>
+        </div>
+        <div class="border">
+        <div class="systeme_onglets">
+        <div class="onglets">
+            <span class="onglet_0 onglet" id="onglet_quoi" onclick="javascript:change_onglet('quoi');">VOSTFR</span>
+            <span class="onglet_0 onglet" id="onglet_qui" onclick="javascript:change_onglet('qui');">VF</span>
+        </div>
+        <div class="contenu_onglets">
+            <div class="contenu_onglet" id="contenu_onglet_quoi">
+                <h1>REGARDER L'EPISODE 1 DE BLEACH EN VOSTFR</h1>
+                    <video width=320 height=auto controls poster="css\images\fond.jpeg">
+                        <source src="css\video\BLEACH-ep1-vostfr.mp4" type="video/mp4">
+                        la video ne repond pas      
+                    </video> 
+            </div>
+            <div class="contenu_onglet" id="contenu_onglet_qui">
+                <h1>REGARDER L'EPISODE 1 DE BLEACH EN VF</h1>
+                    <video width=320 height=auto controls poster="css\images\fond.jpeg">
+                        <source src="css\video\BLEACH-ep1-vf.mp4" type="video/mp4">
+                        la video ne repond pas      
+                    </video> 
+            </div>
+        </div>
+    </div>
+</div>
+    <script type="text/javascript">
+    //<!--
+        var anc_onglet = 'quoi';
+        change_onglet(anc_onglet);
+    //-->
+    </script>
+	</body>
+</html>

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<link rel="stylesheet" href="CSS/background.css">
+		<link rel="stylesheet" href="CSS/menu-horizontal.css">
+		<link rel="stylesheet" href="CSS/video.css">
+		<meta charset="utf-8">
+		<title>CCF D'ART timothée Maire</title>
+
+        <script type="text/javascript">
+    //<!--
+        function change_onglet(name)
+        {
+            document.getElementById('onglet_'+anc_onglet).className = 'onglet_0 onglet';
+            document.getElementById('onglet_'+name).className = 'onglet_1 onglet';
+            document.getElementById('contenu_onglet_'+anc_onglet).style.display = 'none';
+            document.getElementById('contenu_onglet_'+name).style.display = 'block';
+            anc_onglet = name;
+        }
+    //-->
+    </script>
+    <script type="text/javascript">
+        (function(){
+
+  var parallax = document.querySelectorAll("body"),
+      speed = 0.5;
+
+  window.onscroll = function(){
+    [].slice.call(parallax).forEach(function(el,i){
+
+      var windowYOffset = window.pageYOffset,
+          elBackgrounPos = "50% " + (windowYOffset * speed) + "px";
+
+      el.style.backgroundPosition = elBackgrounPos;
+
+    });
+  };
+
+})();
+</script>
+    <style type="text/css">
+    html
+    {
+        overflow-x: hidden;
+    }
+    .onglet
+    {
+        display:inline-block;
+        margin-left:3px;
+        margin-right:3px;
+        padding:3px;
+        border:2px solid black;
+        cursor:pointer;
+        position: relative;
+        bottom: 20em;
+    }
+    .onglet_0
+    {
+        background-color:#bbbbbb;
+        border-bottom:1px solid black;
+        
+    }
+    .contenu_onglet
+    {
+        background-color:#dddddd;
+        border:1px solid black;
+        margin-top:-1px;
+        padding:5px;
+        display:none;
+        position: relative;
+        bottom: 20em;
+    }
+    .contenu_onglets
+    {
+        position: relative;
+        
+    }
+    ul
+    {
+        margin-top:0px;
+        margin-bottom:0px;
+        margin-left:-10px
+    }
+    h1
+    {
+        margin:0px;
+        padding:0px;
+    }
+    .border
+    {
+        padding: 0px;
+        width: 21em;
+        margin-left: 1%;
+        margin-top: 1%;
+        text-align: center;
+    }
+    </style>
+	</head>
+	<body>
+        <a href="ccf.html"><img src="css\images\logo-bleach.png" alt="logo bleach"></a>
+		<header>
+			<nav>
+                <ul class="niveau1">
+                <li title=" retour a l'accueil"><a class=fra href="ccf.html">Accueil</a></li>
+                <li class="sousmenu"><a class=fra href="histoire.html">Histoire</a>
+                   <ul class="niveau2">
+                      <li><a class=fra href="episode.html">date episode</a></li>
+                      <li><a class=fra href="manga.html">date manga</a></li>
+                  </ul>
+              </li>
+              <li><a class=fra href="univers.html">Univers</a></li>
+              <li><a class=fra href="zanpakuto.html">Arme/Zanpakuto</a></li>
+                        <li class="sousmenu"><a class=fra href="perso1.html">Personnage</a>
+                    <ul class="niveau2" id="scrollmenu">
+                        <div>
+                        <li><a class=fra href="perso1.html#ichi1">Ichigo Kurosaki</a></li>
+                        <li><a class=fra href="perso1.html#issh1">Isshin Kurosaki</a></li>
+                        <li><a class=fra href="perso1.html#masa1">Masaki Kurosaki</a></li>
+                        <li><a class=fra href="perso1.html#kari1">Karin Kurosaki</a></li>
+                        <li><a class=fra href="perso1.html#yuzu1">Yuzu Kurosaki</a></li>
+                        <li><a class=fra href="perso1.html#uryu1">Uryu Ishida</a></li>
+                        <li><a class=fra href="perso1.html#orih1">Orihime Inoue</a></li>
+                        <li><a class=fra href="perso1.html#yasu1">Yasutora sado</a></li>
+                        <li><a class=fra href="perso1.html#ruki1">Rukia Kuchiki</a></li>
+                        <li><a class=fra href="perso1.html#byak1">Byakuya Kuchiki</a></li>
+                        <li><a class=fra href="perso1.html#renj1">Renji Abarai</a></li>
+                        <li><a class=fra href="perso1.html#ikka1">Ikkaku madarame</a></li>
+                        <li><a class=fra href="perso1.html#kenp1">Kenpachi Zaraki</a></li>
+                        <li><a class=fra href="perso1.html#yach1">Yachiru kusajishi</a></li>
+                        <li><a class=fra href="perso1.html#yoru1">Yoruichi shihouin</a></li>
+                        <li><a class=fra href="perso1.html#tosh1">Toshiro hitsugaya</a></li>
+                        <li><a class=fra href="perso1.html#rang1">Rangiku Matsumoto</a></li>
+                        <li><a class=fra href="perso1.html#sosu1">Sosuke Aizen</a></li>
+                        <li><a class=fra href="perso1.html#kisu1">Kisuke Urahara</a></li>
+                        <li><a class=fra href="perso1.html#mayu1">Mayuri Kurotsuchi</a></li>
+                        <li><a class=fra href="perso1.html#yama1">Yamamoto Genryusai</a></li>
+                        <li><a class=fra href="perso1.html#jush1">Jushiro Ukitake</a></li>
+                        <li><a class=fra href="perso1.html#ulqu1">ulquiorra schiffer</a></li>
+                        <li><a class=fra href="perso1.html#shun1">shunsui kyoraku</a></li>
+                        <li><a class=fra href="perso1.html#grim1">Grimmjow jaggerjack</a></li>
+                        <li><a class=fra href="perso1.html#nell1">nelleil tu oderschvank</a></li>
+                        <li><a class=fra href="perso1.html#hall1">Tia Hallibel</a></li>
+                        <li><a class=fra href="perso1.html#rets1">retsu Unohana</a></li>
+                        <li><a class=fra href="perso1.html#kugo1">Kugo Ginjo</a></li>
+                        <li><a class=fra href="perso1.html#soif1">Soifon</a></li>
+                        <li><a class=fra href="perso1.html#shin1">Shinji Hirako</a></li>
+                        <li><a class=fra href="perso1.html#coyo1">Coyote Stark</a></li>
+                        <li><a class=fra href="perso1.html#kuka1">Kukaku Shiba</a></li>
+                        <li><a class=fra href="perso1.html#riru1">Riruka dokugamine</a></li>
+                        <li><a class=fra href="perso1.html#saji1">Sajin Komamura</a></li>
+                        <li><a class=fra href="perso1.html#izur1">Izuru Kira</a></li>
+                        <li><a class=fra href="perso1.html#tats1">Tatsuki Arisawa</a></li>
+                        <li><a class=fra href="perso1.html#kens1">Kensei Muguruma</a></li>
+                        <li><a class=fra href="perso1.html#urur1">Ururu Tsumugiya</a></li>
+                        <li><a class=fra href="perso1.html#noit1">N'Noitra Jirga</a></li>
+                        <li><a class=fra href="perso1.html#isan1">Isane Kotetsu</a></li>
+                        <li><a class=fra href="perso1.html#yamm1">Yammy Rialgo</a></li>
+                        <li><a class=fra href="perso1.html#kari1">Jin Kariya</a></li>
+                        <li><a class=fra href="perso1.html#ganj1">Ganju Shiba</a></li>
+                        <li><a class=fra href="perso1.html#yumi1">Yumichika Ayasegawa</a></li>
+                        <li><a class=fra href="perso1.html#keig1">Keigo Asano</a></li>
+                        <li><a class=fra href="perso1.html#mash1">Mashiro Kuna</a></li>
+                        <li><a class=fra href="perso1.html#shis1">Moe Shishigawara</a></li>
+                        <li><a class=fra href="perso1.html#fran1">Franceska Mila Rose</a></li>
+                        <li><a class=fra href="perso1.html#gin1">Gin Ichimaru</a></li>
+                        <li><a class=fra href="perso1.html#shuk1">Shukuro Tsukishima</a></li>
+                    </div>
+                    </ul>
+                    </li>
+                    <li><a class=fra href="dessin.html">style de dessin</a></li>
+                    </ul>
+                </nav>
+			</header>
+            <br><br>
+            <p class=presentation>Manga (漫画 ou まんが) désigne en japonais les bandes dessinées en général. En français, ce terme désigne les bandes dessinées japonaises, et par extension, les bandes dessinées non-japonaises respectant les codes des productions populaires japonaises. Le mot manga est souvent utilisé de façon impropre pour nommer d’autres produits visuels rappelant ces bandes dessinées (dessins animés, style graphique…).<br/><br>
+
+C’est à partir d’illustrations satiriques que ce support artistique à vu le jour à la fin du xviiie siècle, la composition de manga (man (漫, divertissant?) et ga (画, dessin?)) signifiant littéralement « caricature ». Le mot ne pris son sens actuel qu’au cours du xxe siècle avec l’introduction de la bande dessinée au Japon.<br/><br>
+
+À la différence de l’Europe et des États-Unis, le marché de la bande dessinée au Japon n’est pas un marché de niche mais un phénomène de masse qui touche une part énorme de la population (on estime à 50 % la proportion de Japonais qui lisent au moins un manga par semaine) et génère une importante activité économique. L’énorme popularité des mangas rivalise quelquefois avec les grosses pointures de la bande dessinée européenne ; ainsi les 42 tomes de Dragon Ball se sont vendus à plus de 250 millions d’exemplaires dans le monde, un chiffre qui surpasse celui enregistré par Les Aventures de Tintin. Cependant, cet aspect a rendu son exploitation industrielle, donnant par la même son aspect extrêmement cloisonné à ce genre artistique ; les récits sont très souvent basés sur un canevas-type par genre, donnant ainsi des similitudes à de nombreuses histoires.<br/>
+Le mot « manga » est par ailleurs parfois utilisé pour désigner, par extension, une bande dessinée non japonaise respectant les codes des productions populaires japonaises ou pour nommer, par métonymie, d'autres produits visuels rappelant certaines de ces bandes dessinées (dessins animés, style graphique, etc.).<br/><br>
+
+Techniquement parlant, les mangas sont presque toujours en noir et blanc, ce qui est directement lié au système de prépublication en magazine bon marché.<br/><br>
+
+Les mangas comptent souvent un nombre important de pages (planches). À titre d'exemple, une bande dessinée européenne contiendra une quarantaine de planches quand le manga en comptera plus d'une centaine, voire plus de deux cents. Par ailleurs, le manga est le plus souvent une série en plusieurs volumes. Finalement, le nombre total de planches racontant une histoire dans un manga est beaucoup plus élevé que dans une bande dessinée européenne (même s'il s'agit d'une série). Ceci affecte par conséquent beaucoup la structure du récit et sa narration. D'où les techniques propres au manga.<br/><br>
+
+Le dessin, en général, est moins « statique » que dans les bandes dessinées occidentales. Le manga utilise un découpage temporel proche de celui du cinéma, adoptant souvent ses cadrages et utilisant une décomposition similaire du temps et de l'action. On retrouve souvent une mise en scène comme la plongée ou la contre-plongée. La perspective varie systématiquement d'une image à l'autre.<br/><br>
+
+De nombreux codes graphiques sont utilisés pour symboliser l'état émotionnel ou physique d'un protagoniste. Les personnages ont souvent de grands yeux, ce qui permet de renforcer l'expressivité du visage. L'étonnement est souvent traduit par la chute du personnage ; l'évanouissement, par une croix remplaçant les yeux. Pour traduire l’excitation sexuelle chez un personnage masculin, un saignement de nez plus ou moins important est provoqué. Dans le manga City Hunter (connu à la télévision française sous le nom Nicky Larson), la colère de Kaori (Laura) est souvent traduite par l'apparition inopinée d'une énorme massue qu'elle assène sur la tête de son partenaire (ce gag est si répandu dans les mangas qu'un univers parallèle où seraient stockés les marteaux a été inventé).<br/><br>
+
+Il y a également une utilisation fréquente d'onomatopées relatives aux mouvements, actions ou pensées des personnages. Notons au passage que le japonais est beaucoup plus riche que le français en onomatopées et que leur champ d'application est plus large, incluant des concepts surprenants tels que l'onomatopée du sourire (niko niko (ニコニコ?)), du silence (shiīn (シイーン?)) ou encore du scintillement (pika pika (ピカピカ?), d'où le nom de Pikachu).<br/><br>
+
+Une particularité à noter est que la plupart des personnages ont souvent des traits occidentaux, au-delà du simple tracé des grands yeux des personnages. Un samouraï roux, un exorciste aux yeux bleus ou une écolière blonde n'ont rien d'étonnant pour le lecteur japonais, même s'ils sont censés être japonais ou de culture japonaise. La simple nécessité de distinguer physiquement deux personnages ne suffit pas toujours à expliquer cet aspect de la narration, puisque certains mangakas choisissent de donner à tous leurs personnages un aspect purement japonais, sans que cela pose de problème de compréhension de l'histoire. Certains y voient une façon d'afficher un attrait pour l'Occident, qui apparaît largement ailleurs dans la vie<br/><br>
+
+Les décors des scènes sont parfois moins fouillés que pour une bande dessinée occidentale. Cela peut aller jusqu'à faire évoluer les personnages dans un décor blanc. Ce parti pris a pour conséquence de focaliser l'attention du lecteur sur l'histoire en général et sur les dialogues en particulier. On note ainsi une certaine résurgence de l'aspect théâtral. Enfin, les personnages ont souvent des attitudes expressives à outrance : la colère, la jalousie ou la gêne se montrent facilement, alors que cette attitude est plutôt mal vue dans la culture japonaise, où le calme et la retenue sont de rigueur dans les rapports sociaux. Le passage de l'absurde et du comique au sérieux ou au drame, sans aucune transition, fait également partie de la narration, sans jamais susciter d'interrogation de la part du lecteur qui accepte par avance cette convention de lecture.<br/><br>
+
+Une autre particularité est le jeu de l'auteur avec le lecteur. Ainsi, dans Rough, on peut voir les personnages faire de la publicité pour d'autres mangas de l'auteur, ou bien ramasser des phylactères tombés sur le sol. De manière générale, on peut noter une plus grande liberté quant à l'interaction entre les dessins et leur support (jeu avec les cadres, personnages sortant des cadres, etc.) Dans les mangas destinés à la jeunesse, les kanji, caractères chinois ou sinogrammes, sont souvent accompagnés de furigana pour faciliter la lecture.<br/><br>
+
+Les mangas traduits en langue française se lisent généralement dans le sens d'origine (de droite à gauche). En raison du rythme élevé de parution, la plupart des mangas sont dessinés en noir et blanc.<br/><br>
+
+Les deux premiers pays les plus consommateurs de mangas sont le Japon et la France<br/><br>
+
+Tite kubo après avoir etait influencé par deux grand manga: kitaro le repoussant et les chevaliers du zodiac a décidé de devenir mangaka. Ces œuvres influenceront son travail et son univers constitués de Yokaï et autres traditions folkloriques et mythologiques Japonaise.
+En 1996, une de ses nouvelles Ultra Unholy Hearted Machine est publiée dans un numéro spécial du Weekly Shōnen Jump. <br/><br>
+
+En août 2001, sa nouvelle série Bleach débute dans le même magazine pour se terminer en août 2016. Ce manga relate l'histoire d'un lycéen (Ichigo Kurosaki) qui devient un shinigami et combat des âmes devenues maléfiques appelées hollows. Étant fan de rock et tout particulièrement du groupe grunge Nirvana, Tite Kubo baptisa son second manga Bleach en référence à leur premier album. En 2005, le manga est récompensé par le prix Shōgakukan dans la catégorie Shōnen. En 2004, sort une adaptation animée de Bleach par le studio Pierrot. Elle est composée de 366 épisodes et s'étale sur 7 ans. Deux OAV et quatre longs métrages d'animation ont également été réalisé entre 2006 et 2010. Tite Kubo réalise la doublure de Kon (mascotte humoristique de la série) dans le premier OAV de la série animée.<br/><br>
+
+Tite Kubo le mangaka realisateur et dessinateur de Bleach à déconsillé au personne qui voudrai s'engager dans cette art de publier leur oeuvre avant que celle-ci ne soit connu</p>
+	<img class="draw" src="CSS\IMAGES\draw1.png">
+	<img class="draw" src="CSS\IMAGES\bleachV1.jpg">
+	<img class="draw" src="CSS\IMAGES\tite3.jpg">
+ </script>
+    </body>
+</html>

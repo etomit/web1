@@ -1,0 +1,3155 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<link rel="stylesheet" href="CSS/background.css">
+		<link rel="stylesheet" href="CSS/menu-horizontal.css">
+		<link rel="stylesheet" href="CSS/video.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="CSS/episode.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300" rel="stylesheet">
+		<meta charset="utf-8">
+		<title>CCF D'ART timothée Maire</title>
+
+        <script type="text/javascript">
+    //<!--
+        function change_onglet(name)
+        {
+            document.getElementById('onglet_'+anc_onglet).className = 'onglet_0 onglet';
+            document.getElementById('onglet_'+name).className = 'onglet_1 onglet';
+            document.getElementById('contenu_onglet_'+anc_onglet).style.display = 'none';
+            document.getElementById('contenu_onglet_'+name).style.display = 'block';
+            anc_onglet = name;
+        }
+    //-->
+    </script>
+    <style type="text/css">
+    .onglet
+    {
+        display:inline-block;
+        margin-left:3px;
+        margin-right:3px;
+        padding:3px;
+        border:2px solid black;
+        cursor:pointer;
+        position: relative;
+        bottom: 20em;
+    }
+    .onglet_0
+    {
+        background-color:#bbbbbb;
+        border-bottom:1px solid black;
+        
+    }
+    .contenu_onglet
+    {
+        background-color:#dddddd;
+        border:1px solid black;
+        margin-top:-1px;
+        padding:5px;
+        display:none;
+        position: relative;
+        bottom: 20em;
+    }
+    .contenu_onglets
+    {
+        position: relative;
+        
+    }
+    ul
+    {
+        margin-top:0px;
+        margin-bottom:0px;
+        margin-left:-10px
+    }
+    h1
+    {
+        margin:0px;
+        padding:0px;
+    }
+    .border
+    {
+        padding: 0px;
+        width: 21em;
+        margin-left: 1%;
+        margin-top: 1%;
+        text-align: center;
+    }
+    .episode-name
+    {
+        font-style: 20px;
+    }
+    </style>
+	</head>
+	<body>
+        <a href="ccf.html"><img src="css\images\logo-bleach.png" alt="logo bleach"></a>
+		<header>
+			<nav>
+                <ul class="niveau1">
+                <li title=" retour a l'accueil"><a class=fra href="ccf.html">Accueil</a></li>
+                <li class="sousmenu"><a class=fra href="histoire.html">Histoire</a>
+                   <ul class="niveau2">
+                      <li><a class=fra href="episode.html">date episode</a></li>
+                      <li><a class=fra href="manga.html">date manga</a></li>
+                  </ul>
+              </li>
+              <li><a class=fra href="univers.html">Univers</a></li>
+              <li><a class=fra href="zanpakuto.html">Arme/Zanpakuto</a></li>
+                        <li class="sousmenu"><a class=fra href="perso1.html">Personnage</a>
+                    <ul class="niveau2" id="scrollmenu">
+                        <div>
+                        <li><a class=fra href="perso1.html#ichi1">Ichigo Kurosaki</a></li>
+                        <li><a class=fra href="perso1.html#issh1">Isshin Kurosaki</a></li>
+                        <li><a class=fra href="perso1.html#masa1">Masaki Kurosaki</a></li>
+                        <li><a class=fra href="perso1.html#kari1">Karin Kurosaki</a></li>
+                        <li><a class=fra href="perso1.html#yuzu1">Yuzu Kurosaki</a></li>
+                        <li><a class=fra href="perso1.html#uryu1">Uryu Ishida</a></li>
+                        <li><a class=fra href="perso1.html#orih1">Orihime Inoue</a></li>
+                        <li><a class=fra href="perso1.html#yasu1">Yasutora sado</a></li>
+                        <li><a class=fra href="perso1.html#ruki1">Rukia Kuchiki</a></li>
+                        <li><a class=fra href="perso1.html#byak1">Byakuya Kuchiki</a></li>
+                        <li><a class=fra href="perso1.html#renj1">Renji Abarai</a></li>
+                        <li><a class=fra href="perso1.html#ikka1">Ikkaku madarame</a></li>
+                        <li><a class=fra href="perso1.html#kenp1">Kenpachi Zaraki</a></li>
+                        <li><a class=fra href="perso1.html#yach1">Yachiru kusajishi</a></li>
+                        <li><a class=fra href="perso1.html#yoru1">Yoruichi shihouin</a></li>
+                        <li><a class=fra href="perso1.html#tosh1">Toshiro hitsugaya</a></li>
+                        <li><a class=fra href="perso1.html#rang1">Rangiku Matsumoto</a></li>
+                        <li><a class=fra href="perso1.html#sosu1">Sosuke Aizen</a></li>
+                        <li><a class=fra href="perso1.html#kisu1">Kisuke Urahara</a></li>
+                        <li><a class=fra href="perso1.html#mayu1">Mayuri Kurotsuchi</a></li>
+                        <li><a class=fra href="perso1.html#yama1">Yamamoto Genryusai</a></li>
+                        <li><a class=fra href="perso1.html#jush1">Jushiro Ukitake</a></li>
+                        <li><a class=fra href="perso1.html#ulqu1">ulquiorra schiffer</a></li>
+                        <li><a class=fra href="perso1.html#shun1">shunsui kyoraku</a></li>
+                        <li><a class=fra href="perso1.html#grim1">Grimmjow jaggerjack</a></li>
+                        <li><a class=fra href="perso1.html#nell1">nelleil tu oderschvank</a></li>
+                        <li><a class=fra href="perso1.html#hall1">Tia Hallibel</a></li>
+                        <li><a class=fra href="perso1.html#rets1">retsu Unohana</a></li>
+                        <li><a class=fra href="perso1.html#kugo1">Kugo Ginjo</a></li>
+                        <li><a class=fra href="perso1.html#soif1">Soifon</a></li>
+                        <li><a class=fra href="perso1.html#shin1">Shinji Hirako</a></li>
+                        <li><a class=fra href="perso1.html#coyo1">Coyote Stark</a></li>
+                        <li><a class=fra href="perso1.html#kuka1">Kukaku Shiba</a></li>
+                        <li><a class=fra href="perso1.html#riru1">Riruka dokugamine</a></li>
+                        <li><a class=fra href="perso1.html#saji1">Sajin Komamura</a></li>
+                        <li><a class=fra href="perso1.html#izur1">Izuru Kira</a></li>
+                        <li><a class=fra href="perso1.html#tats1">Tatsuki Arisawa</a></li>
+                        <li><a class=fra href="perso1.html#kens1">Kensei Muguruma</a></li>
+                        <li><a class=fra href="perso1.html#urur1">Ururu Tsumugiya</a></li>
+                        <li><a class=fra href="perso1.html#noit1">N'Noitra Jirga</a></li>
+                        <li><a class=fra href="perso1.html#isan1">Isane Kotetsu</a></li>
+                        <li><a class=fra href="perso1.html#yamm1">Yammy Rialgo</a></li>
+                        <li><a class=fra href="perso1.html#kari1">Jin Kariya</a></li>
+                        <li><a class=fra href="perso1.html#ganj1">Ganju Shiba</a></li>
+                        <li><a class=fra href="perso1.html#yumi1">Yumichika Ayasegawa</a></li>
+                        <li><a class=fra href="perso1.html#keig1">Keigo Asano</a></li>
+                        <li><a class=fra href="perso1.html#mash1">Mashiro Kuna</a></li>
+                        <li><a class=fra href="perso1.html#shis1">Moe Shishigawara</a></li>
+                        <li><a class=fra href="perso1.html#fran1">Franceska Mila Rose</a></li>
+                        <li><a class=fra href="perso1.html#gin1">Gin Ichimaru</a></li>
+                        <li><a class=fra href="perso1.html#shuk1">Shukuro Tsukishima</a></li>
+                    </div>
+                    </ul>
+                    </li>
+                    <li><a class=fra href="dessin.html">style de dessin</a></li>
+                    </ul>
+                </nav>
+			</header>
+		<br><br>
+        <p class="presentation1"> Voici les 74 Tomes du manga BLEACH disponible ci dessous<br>ces 74 Tomes comportent 686 chapitres.</p>
+            <br><br>
+            <div class=textcenter>
+        <div class="block-episode"> 
+<div class="seasons">
+      <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_1_the_death_and_the_strawberry-1004319-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                1              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                The Death And The Strawberry            &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  19 mai 2003                              </span>
+            <br>
+            <p class="bigt">poème:
+                <br><br>
+                Craignez-nous
+                D’autant plus<br>
+                Que nous ne<br>
+                Possédons<br>
+                Point de corps…</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+      <br>
+
+
+      <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_2_goodbye_parakeet_goodnite_my_sista-1004320-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                2              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Goodbye Parakeet, Goodnite My Sista           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  28 Juillet 2003                              </span>
+            <br><p class="bigt">poème:
+                <br><br>La raison pour<br>
+                        Laquelle l’être humain<br>
+                        Garde encore espoir<br>
+                        Est qu’il ne peut point<br>
+                        Voir la mort…</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+          <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_3_memories_in_the_rain-1004324-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                3              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Memories In The Rain          &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  15 Octobre 2003                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Si j’étais la pluie,<br>
+                        Pourrais-je toucher<br>
+                        Le cœur de quelqu’un,<br>
+                        À l’image de la pluie qui<br>
+                        Réussit à réunir le ciel et<br>
+                        La terre éternellement<br>
+                        Distants ?…</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+            <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_4_quincy_archer_hates_you-1004328-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                4              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Quincy Archer Hates You           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  18 Février 2004                              </span>
+            <br><p class="bigt">poème:
+                <br><br>On s’attire mutuellement,<br>
+Comme des gouttes d’eau,<br>
+Comme des planètes<br>
+<br>
+On se rejette l’un l'autre,<br>
+Comme des aimants, comme<br>
+Les couleurs de la peau…</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+            <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_5_rightarm_of_the_giant-1004330-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                5              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Rightarm Of The Giant           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  21 Avril 2004                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Je ne peux pas te<br>
+Protéger sans serrer<br>
+Un sabre dans mes mains.<br>
+<br>
+Or je ne peux point<br>
+T’embrasser le sabre<br>
+À la main.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+            <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_6_the_death_trilogy_overture-1004331-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                6              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                The Death Trilogy Ouverture           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  16 Juin 2004                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Oui… Nous n’avons point de destinée<br>
+Ensevelis que nous sommes dans<br>
+L’ignorance et dans l’horreur, seuls<br>
+Quelques malheureux parmi nous perdent<br>
+L’équilibre et tombent dans ce torrent<br>
+Boueux qu’on appelle la destinée…</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+            <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_7_the_broken_coda-1004333-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                7              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                The Broken Coda           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  22 Septembre 2004                            </span>
+            <br><p class="bigt">poème:
+                <br><br>Nous ne devons jamais verser de larmes.<br>
+<br>
+Les larmes ne sont rien d’autre que<br>
+La défaite du corps contre le cœur.<br>
+Elles constituent la preuve que garder un<br>
+Cœur ne sert à rien d'autre qu'à s’affaiblir.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+            <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_8_the_blade_and_me-1004334-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                8              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                The Blade And Me           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  16 Novembre 2004                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Si je rouille, je ne pourrais point<br>
+Me relever pour attaquer à nouveau.<br>
+<br>
+Si tu ne peux plus te servir de moi pour<br>
+Combattre, alors brise mon corps en morceaux.<br>
+<br>
+L’honneur et la lame d’un sabre<br>
+Sont semblables en tout point.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+            <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_9_fourteen_days_for_conspiracy-1004336-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                9              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Fourteen Days For Conspiracy           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  16 Février 2005                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Oui… Nous regardons<br>
+Tous en l’air, les yeux<br>
+Bien ouverts, pour voir voler<br>
+Nos rêves, après tout.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+            <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_10_tattoo_on_the_sky-1004335-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                10              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Tattoo On The Sky           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  20 Avril 2005                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Même si on arrivait à<br>
+Allonger le bras suffisamment<br>
+Pour écarter les nuages,<br>
+Traverser le ciel et toucher Mars<br>
+Et la Lune… Même ainsi on ne<br>
+Parviendrais pas à toucher<br>
+La vérité</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+            <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_11_a_star_and_a_stray_dog-1004337-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                11              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                A Star And A Stray Dog           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  15 Juin 2005                              </span>
+            <br><p class="bigt">poème:
+                <br><br>La lueur des flammes<br>
+Éclaire mes crocs qui<br>
+Manquent néanmoins leur cible.<br>
+<br>
+Je ne vis que dans l’espoir que<br>
+Ma gorge ne soit point déchiquetée<br>
+Avant que je ne voie cette étoile…</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+            <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_12_flower_on_the_precipice-1004338-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                12              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Flowers On The Pricipice           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  24 Août 2005                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Ce qui nous permet<br>
+De considérer la beauté<br>
+D’une fleur parfaite est le fait<br>
+Qu’on prend le temps de s’arrêter<br>
+Pour bien la regarder. C’est le fait<br>
+De passer cet instant en un état<br>
+De parfaite tranquillité, sans<br>
+Continuer notre marche vers le ciel.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+            <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_13_the_undead-1004339-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                13              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                The Undead           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  19 Octobre 2005                              </span>
+            <br><p class="bigt">poème:
+                <br><br>En renonçant à la fierté,<br>
+Nous faisons un pas vers la bête.<br>
+En renonçant à notre cœur,<br>
+Nous nous éloignons d’un pas de la bête.</p>
+        </div>
+    </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+            <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_14_white_tower_rocks-1004340-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                14              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                White Tower Rocks           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  17 Janvier 2006                             </span>
+            <br><p class="bigt">poème:
+                <br><br>Grince, grince,<br>
+Tour du péché purifiée<br>
+Dans la première lumière<br>
+Qui transperce le monde.<br>
+Vacille, vacille,<br>
+Tour de l’équilibre absolu.<br>
+Qui va tomber, le ciel ou nous ?</p>
+
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+            <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_15_beginning_of_the_death_of_tomorrow-1004341-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                15              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Beginning Of The Death Of Tomorrow           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  28 Février 2006                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Je m’entraîne<br>
+Seulement à te dire<br>
+Adieu.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+            <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_16_night_of_wijnruit-1004343-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                16              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Night Of Wijnruit           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  16 mai 2006                              </span>
+            <br><p class="bigt">poème:
+                <br><br>La crinière brûlante<br>
+Du soleil va effacer<br>
+Les traces de pas<br>
+Sur la neige.<br>
+<br>
+Ne crais pas les illusions,<br>
+C’est déjà sur elles que<br>
+Le monde repose.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+            <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_17_rosa_rubicundior_lilio_candidior-1004344-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                17              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Rosa Rubicundior, Lilio Candidior           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  11 Juillet 2006                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Rouge comme le sang,<br>
+Blanc comme les os,<br>
+Rouge comme la solitude,<br>
+Blanc comme le silence,<br>
+Rouge comme les nerfs d’une bête,<br>
+Blanc comme le cœur d’un dieu,<br>
+Rouge comme la haine qui se déverse,<br>
+Blanc comme une blessure qui se glace,<br>
+Rouge comme les ombres dévorant la nuit,<br>
+Blanc comme un soupir transperçant la Lune,<br>
+Blanc qui étincelle et rouge qui tombe.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+      <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_18_the_deathberry_returns-1004345-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                18              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                The Deathberry Returns           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  06 Septembre 2006                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Ton ombre tisse mon chemin<br>
+Dans l’ombre, sans but,<br>
+Comme une aiguille empoisonnée.<br>
+<br>
+Ta lumière frappe gracieusement<br>
+La tour de l’eau et, comme la foudre,<br>
+Coupe la source de ma vie.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+            <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_19_the_black_moon_rising-1004347-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                19              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                The Black Moon Rising           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  22 Novembre 2006                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Car personne d’autre<br>
+N’a le pouvoir de<br>
+Changer mon univers.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+
+
+
+            <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_20_end_of_hypnosis-1004348-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                20              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                End Of Hypnosis          &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  20 Février 2007                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Celui qui lie l’amour et<br>
+La beauté n’a jamais connu<br>
+L’amour. Celui qui lie l’amour<br>
+Et l’horreur a déjà aimé.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+
+
+
+            <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_21_be_my_family_or_not-1004354-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                21              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Be My Familly Or Not           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  18 Avril 2007                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Ce monde tout entier<br>
+N’existe que pour<br>
+Te poursuivre.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+
+
+
+            <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_22_conquistadores-1004355-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                22              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Conquistadores           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  22 Juin 2007                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Notre monde n’a pas de sens.<br>
+Pas plus que nous, qui y vivons.<br>
+Quand nous, dont l’existence<br>
+N’a aucune sens, imaginons le<br>
+Monde, c’est là que le fait<br>
+Même de savoir qu’il n’a pas de<br>
+Sens n’a aucun sens non plus.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+
+
+            <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_23_mala_suerte-1004356-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                23              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Mala Suerte !           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  14 Août 2007                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Nous sommes le poisson devant la cascade<br>
+Nous sommes l’insecte dans la cage<br>
+Nous sommes les ruines après la vague géante<br>
+Le bâton sacré surmonté d’un crâne<br>
+La force du courant et la baleine qui le fend<br>
+Nous sommes le bouc à cinq cornes<br>
+Nous sommes le monstre cracheur de feu<br>
+L’enfant qui hurle ses pleurs<br>
+Oui, nous sommes empoisonnés par le clair de lune</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+
+            <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_24_immanent_god_blues-1004358-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                24              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Immanent God Blues           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  24    Novembre 2007                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Anéantissez-
+Les tous !</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+
+         <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_25_no_shaking_throne-1004359-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                25              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                No Shaking Throne           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  28    Janvier 2008                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Tous, nous sommes déjà morts<br>
+Alors que nous naissons. La fin<br>
+Existe avant même le commencement.<br>
+<br>
+Si vivre c’est savoir quelque chose,<br>
+Ce que nous apprenons en dernier est<br>
+Précisément cette fin, et lorsque enfin<br>
+Nous la voyons se profiler, tout ce<br>
+Que nous savons se résume à la mort.<br>
+<br>
+Nous ne devons rien essayer de savoir,<br>
+Car ceux qui ne peuvent triompher de la<br>
+Mort devraient rester dans l’ignorance.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_26_the_mascaron_drive-1004360-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                26              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                The Mascaron Drive          &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  19 Mars 2008                              </span>
+            <br><p class="bigt">poème:
+                <br><br>La voix qui me transperce<br>
+L’âme ressemble à un cri<br>
+De bonheur permanent…</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_27_goodbye_halcyon_days-1004364-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                27              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Goodbye Halcyon Days           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  21  Mai 2008                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Mon premier nous<br>
+Empêche d’être ensemble<br>
+<br>
+Mon second fait que nous<br>
+Sommes de nature différente<br>
+<br>
+Nous sommes aveugles<br>
+À mon troisième<br>
+<br>
+Nous n’avons pas l’espoir<br>
+D’atteindre mon quatrième<br>
+<br>
+Mon tout se trouve<br>
+Dans nos cœurs</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+<br><br>
+
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_28_baron_s_lecture_full-course-1004367-264-432.jpg" alt="Bleach">
+                          <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                28              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Baron's Lecture Full Course           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  09    Juillet 2008                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Ô maître,<br>
+Nous te regardons<br>
+Comme on admire<br>
+Un paon.<br>
+<br>
+Nous sommes emplis<br>
+D’espoirs, d’admiration féale,<br>
+Et de ce sentiment insondable<br>
+Qui ressemble à la crainte.</p>
+  </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_29_the_slashing_opera-1004368-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                29              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                The Splashing Opera           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  24    Septembre 2008                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Même si on sait que tout ce<br>
+Qui nous rend beau nous sera<br>
+Obstinément arraché,<br>
+<br>
+Même si on sait que tout ce qui<br>
+Nous rend brillant nous sera<br>
+Obstinément arraché,<br>
+<br>
+Il fait peur, si peur, ce moment<br>
+Où ils sont tranchés…<br>
+<br>
+Ces cheveux coupés<br>
+Ressemblent à ton cadavre.<br>
+<br>
+Alors que les cheveux, et les<br>
+Ongles aussi, sont comme des<br>
+Bijoux sui nous embellissent.<br>
+<br>
+Pourquoi leur suffit-il d’être<br>
+Séparés de notre corps pour<br>
+Devenir sales et sinistres ?<br>
+<br>
+La réponse est simple…<br>
+<br>
+C’est parce que ceci n’est<br>
+Rien de moins que la silhouette<br>
+Que nous aurons dans la mort.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_30_there_is_no_heart_without_you-1004369-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                30              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                There Is No heart Without You           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  6    Janvier 2009                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Blessure profonde<br>
+Comme les abysses…<br>
+<br>
+Rouge du crime,<br>
+Que la mort décolore…</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_31_don_t_kill_my_volupture-1004370-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                31              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Don't Kill My Volupture           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  24    Mars 2009                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Dis que tu me détestes<br>
+Plus que tout au monde.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_32_howling-1004371-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                32              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Howling           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  20    Mai 2009                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Le roi galope<br>
+<br>
+Repoussant les ombres<br>
+Faisant cliqueter son armure<br>
+Faisant voler les os<br>
+Avalant la chair<br>
+Grinçant des dents<br>
+Écrasant les cœurs</p>
+
+Il va seul
+Vers un horizon lointain
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_33_the_bad_joke-1004375-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                33              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                THE BAD JOKE          &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  1    Juillet 2009                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Nous sommes des insectes<br>
+Des vers grouillant<br>
+Sous une haine stagnante<br>
+Nous dressons la tête,<br>
+Plus haut que la lune<br>
+Jusqu’à ne plus voir les êtres<br>
+Pitoyables que vous êtes.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/63/mod11/bleach_tome_34_king_of_the_kill-62917-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                34              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                King Of The Kill           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  23    Septembre 2009                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Si tu me donnes des ailes,<br>
+Je volerai pour toi…<br>
+Même si par exemple cette terre<br>
+Sombrait tout entière au fond des eaux.<br>
+Si tu me donnes une épée,<br>
+Je prendrai parti pour toi…<br>
+Même si par exemple ce ciel<br>
+Tout entier te transperçait de lumière.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_35_higher_than_the_moon-1004379-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                35              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Highter Than The Moon           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  17  Février 2010                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Pousser son premier cri de vie,<br>
+C’est déjà mourir.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_36_turn_back_the_pendulum-1004381-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                36              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Turn Back  The Pendulum           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  21 Avril 2010                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Il est encore<br>
+Trop tôt<br>
+Pour croire.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/907/mod11/bleach_tome_37_beauty_is_so_solitary-906812-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                37              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                    Beauty Is So Solitary           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  16 Juin 2010                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Je ne trouve pas que<br>
+Les gens soient beaux,<br>
+Mais je trouve que les<br>
+Fleurs le sont.<br>
+<br>
+Une silhouette humaine<br>
+Ne ressemble à une fleur<br>
+Que lorsqu’elle<br>
+S’écroule au sol,<br>
+Déchiquetée de toutes parts.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_38_fear_for_fight-1004385-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                38              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Fear For Fight           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  25  Août 2010                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Je n’ai peur<br>
+Que d’une chose :<br>
+devenir un guerrier qui<br>
+Ne connait pas la peur.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_39_el_verdugo-1004386-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                39              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                El Verdugo           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  20  Octobre 2010                              </span>
+            <br><p class="bigt">poème:
+                <br><br>S'égarer est le<br>
+Propre de l'humain<br>
+<br>
+Tuer est<br>
+celui du démon.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/907/mod11/bleach_tome_40_the_lust-906832-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                40              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                The Lust           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  5    Janvier 2011                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Le fait d'avoir un cœur<br>
+Engendre l'envie<br>
+Le fait d'avoir un cœur<br>
+Engendre la gourmandise<br>
+Le fait d'avoir un cœur<br>
+Engendre l'avarice<br>
+Le fait d'avoir un cœur<br>
+Engendre l'orgueil<br>
+Le fait d'avoir un cœur<br>
+Engendre la paresse<br>
+Le fait d'avoir un cœur<br>
+Engendre la colère<br>
+Le fait d'avoir un cœur<br>
+Engendre mon désir<br>
+Pour tout ce que tu es</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+<br><br><br>
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_41_heart-1004387-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                41              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Heart           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  02   Mars 2011                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Je vais récupérer<br>
+Ce que j'ai perdu<br>
+Sang, chair et os<br>
+Et une chose de plus</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_42_shock_of_the_queen-1004388-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                42              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Shock Of the Queen           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  04  Mai 2011                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Un monde sans sacrifice<br>
+N'existe pas...<br>
+Ne le réalises-tu pas ?<br>
+Nous appelons<br>
+Temporairement monde<br>
+Cet enfer de cendres<br>
+Flottant sur<br>
+Une mer de sang.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/323/mod11/bleach_tome_43_kingdom_of_hollows-323092-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                43              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Kingdom Of Hollows           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  29 Juin 2011                              </span>
+            <br><p class="bigt">poème:
+                <br><br>La putréfaction<br>
+Est mon amie<br>
+La nuit est<br>
+Ma servante<br>
+En laissant les<br>
+Corbeaux picorer<br>
+Ce corps<br>
+Je t'attends<br>
+Dans un<br>
+Cercueil d'orme</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/907/mod11/bleach_tome_44_vice_it-906842-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                44              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Vice It           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  21 Septembre 2011                              </span>
+            <br><p class="bigt">poème:
+                <br><br>L'homme n'est que vice<br>
+Et pour se donner l'illusion d'être juste<br>
+Le seul moyen est de se persuader<br>
+Que tous les autres sont plus mauvais que soi<br>
+Une justice pleine de certitudes n'est que vice<br>
+Et pour qu'elle reste juste<br>
+Il faut sans cesse douter de son propre sens de la justice<br>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_45_the_burnout_inferno-1004390-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                45              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                The Burnout Inferno          &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  30 Novembre 2011                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Ne vis pas à genoux<br>
+Il faut mourir debout.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_46_back_from_blind-1004394-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                46              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Back From Blind           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  04 Janvier 2012                             </span>
+            <br><p class="bigt">poème:
+                <br><br>Je n'ai pas peur de connaître le malheur<br>
+Ce que je crains, c'est de savoir que<br>
+Le bonheur passé ne reviendra pas...</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/3387/mod11/bleach_tome_47_end_of_the_chrysalis-3386752-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                47              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                End Of The Chrysalis Age            &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  07 Mars 2012                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Si demain, tu deviens serpent<br>
+Et si tu commences<br>
+A dévorer les gens<br>
+Et si de cette bouche<br>
+Qui les a engloutis<br>
+Tu criais que tu m'aimes<br>
+Pourrai-je réellement<br>
+Dire que je t'aime<br>
+Comme aujourd'hui ?</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/3011/mod11/bleach_tome_48_god_is_dead-3010583-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                48              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                God Is Dead           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  09  Mai 2012                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Tout homme n'est jamais<br>
+Que l'imitation d'un singe.<br>
+Tout dieu n'est jamais<br>
+Que l'imitation d'un homme.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_49_the_lost_agent-1004396-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                49              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                tHE lOST Agent         &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  05 Septembre 2012                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Vais-je pouvoir suivre<br>
+L'allure de ce monde<br>
+Où tu n'es pas ?</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_50_the_six_fullbringers-1004398-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                50              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                The Six Fullbringers           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  07    Novembre 2012                              </span>
+            <br><p class="bigt">poème:
+                <br><br>On est sans cesse<br>
+Talonné par le temps<br>
+Qui s'écoule et passe<br>
+Sous nos yeux en grondant.<br>
+Abandonne,<br>
+Il tente de t'emporter<br>
+Vers un passé brillant<br>
+Peu importe à quel point<br>
+Tu lui montres les dents,<br>
+Ne regarde pas vers l'avant.<br>
+Ton espoir n'existe que<br>
+Dans les eaux boueuses<br>
+Et sombrent du torrent<br>
+Qui te talonne...</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+<br><br>
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_51_love_me_bitterly_loth_me_sweetly-1004399-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                51              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Love Me Bitterly Loth Me Sweety           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  03 Janvier 2013                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Ne mets pas les doigts<br>
+Dans mon cœur !</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/3611/mod11/bleach_tome_52_end_of_bond-3611262-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                52              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                End of bond           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  06 Mars 2013                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Veux-tu bien<br>
+Compter avec moi<br>
+Le nombre de<br>
+Morsures que<br>
+Je t'ai infligées ?</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_53_the_deathberry_returns_2-1004400-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                53              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                The Deathberry Returns 2           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  08 Mai 2013                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Le fait que je sois si jeune,<br>
+Que je sois si inexpérimenté,<br>
+Semble être sans faille<br>
+Pour les adultes, rendus laids<br>
+Et décrépits par l'âge,<br>
+Chose absolument impardonnable.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_54_goodbye_to_our_xcution-1004403-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                54              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Goodbye To Our Xcution           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  03 Juillet 2013                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Pouvoir dire que la seule chose<br>
+Qui point ne change est son cœur,<br>
+Voilà ce qu'est la force.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_55_the_blood_warfare-1004405-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                55              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                The Blood Warfare           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  09 Octobre 2013                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Faire le premier pas en avant,<br>
+Sans pouvoir revenir jamais,<br>
+Vers la mer du sang,<br>
+De l'univers tout entier.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_56_march_of_the_starcross-1004407-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                56             &emsp;</span>
+            
+          
+              <span class="episode-name">
+                March Of The StarCross           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  22 Janvier 2014                             </span>
+            <br><p class="bigt">poème:
+                <br><br>Les troupes marchent au son du clairon<br>
+Comme une multitude d'étoiles au tintement incessant,<br>
+Comme le tonnerre grondant des bottes militaires.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_57_out_of_bloom-1004413-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                57              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Out Of Bloom           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                 05 Mars 2014                              </span>
+            <br><p class="bigt">poème:
+                <br><br>Même si une fois tombés,<br>
+Jamais plus ils ne refleurissent,<br>
+Qu'il est beau de les voir<br>
+S'éparpiller comme des flammes.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_58_the_fire-1004414-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                58              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                The Fire           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  07 Mai 2014                             </span>
+                <br><p class="bigt">poème:
+                    <br><br>Haut brûlent les flammes de l'âme<br>
+Quand bien même s'écroulent les cieux.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_59_the_battle-1004419-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                59              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                The Battle           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  02 Juillet 2014                              </span>
+            <br><p class="bigt">poème:
+                    <br><br>Le combat est tout.
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_60_everything_but_the_rain-1004420-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                60              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Everything But The Rain           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  03 Septembre 2014                             </span>
+            <br><p class="bigt">poème:
+                    <br><br>Innocent,<br>
+Tu es comme un soleil.<br>
+Criminel, toi aussi,<br>
+Tu es comme un soleil.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_61_the_last_9_days-1004421-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                61              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                The last 9 Days           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  07 Janvier 2015                              </span>
+            <br><p class="bigt">poème:
+                    <br><br>Je crois que le monde<br>
+Est rempli de dangers.<br>
+La raison pour laquelle<br>
+Je souhaite t'en protéger<br>
+Est que je sens en moi<br>
+Une impulsion de nature<br>
+Tout aussi dangereuse.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_62_heart_of_wolf-1004423-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                62              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Heart Of Wolf          &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  04 Mars 2015                              </span>
+            <br><p class="bigt">poème:
+                    <br><br>Je continuerai à lutter<br>
+Contre ma vie<br>
+Tant que mon cœur<br>
+Aura des crocs.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_63_hear_fear_here-1004425-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                63              &emsp;</span>
+            
+          
+              <span class="episode-name">
+               Hear, Fear, Here           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  06 Mai 2015                              </span>
+            <br><p class="bigt">poème:
+                    <br><br>Il n'y a aucune différence<br>
+Entre vivre et être laissé en vie<br>
+Tout comme il n'y en a aucune<br>
+Entre mourir et se faire tuer</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/669/mod11/bleach_tome_64_death_in_vision-669375-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                64              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Death In Vision          &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  07 Juillet 2015                             </span>
+            <br><p class="bigt">poème:
+                    <br><br>La beauté, c'est le néant.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/750/mod11/bleach_tome_65_marching_out_the_zombies-749663-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                65              &emsp;</span>
+            
+          
+              <span class="episode-name">
+               Marching Out The ZOMBIES           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  14 Octobre 2015                              </span>
+            <br><p class="bigt">poème:
+                    <br><br>Je t'aime...<br>
+A mourir</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_66_sorry_i_am_strong-1004426-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                66              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Sorry I Am Strong           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  06 Janvier 2016                              </span>
+            <br><p class="bigt">poème:
+                    <br><br>N'y a-t-il de tranchant<br>
+Que la vie ?</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/734/mod11/bleach_tome_67_black-734224-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                67              &emsp;</span>
+            
+          
+              <span class="episode-name">
+               Black           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  02 Mars 2016                              </span>
+            <br><p class="bigt">poème:
+                    <br><br>Tant de poison donne<br>
+Le vertige, pas vrai ?</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/887/mod11/bleach_tome_68_the_ordinary_peace-886800-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                68             &emsp;</span>
+            
+          
+              <span class="episode-name">
+                The Ordinary Peace          &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  04 Mai 2016                              </span>
+            <br><p class="bigt">poème:
+                    <br><br>Balle, griffe, drapeau de guerre, épée<br>
+Je t'attends en comptant<br>
+Sur les cinq doigts de ma main</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/887/mod11/bleach_tome_69_against_the_judgement-886803-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                69              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Against Thr Judgement          &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  06   Juillet 2016                              </span>
+            <br><p class="bigt">poème:
+                        <br><br>Balle, griffe, drapeau de guerre, épée<br>
+Je t'attends en comptant<br>
+Sur les cinq doigts de ma main</p>
+
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/814/mod11/bleach_tome_70_friend-814315-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                70              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Friend           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  07 Septembre 2016                              </span>
+                <br><p class="bigt">poème:
+                        <br><br>Je ne ressens<br>
+Aucune douleur<br>
+Hormis celle<br>
+De ne pouvoir<br>
+Quitter cette<br>
+Balance des yeux</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/839/mod11/bleach_tome_71_baby_hold_your_hand-838626-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                71              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Baby, Hold Your Hand           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  02 Novembre 2016                              </span>
+            <br><p class="bigt">poème:
+                        <br><br>Mignonne est la main de mon enfant,<br>
+Cette main perdue qui erre en me cherchant<br>
+Et s'éloigne si je m'approche... Prends ma main,<br>
+Et marchons ensemble jusqu'à la fin.</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/853/mod11/bleach_tome_72_my_last_words-852796-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                72              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                My Last Words           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  1 Février 2017                              </span>
+            <br><p class="bigt">poème:
+                        <br><br>Si les mots avaient une forme<br>
+Ils ne parviendraient pas jusqu'à toi,<br>
+Qui te dresses dans les ténèbres</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/947/mod11/bleach_tome_73_battlefield_burning-947466-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                73              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                Battlefield Burning           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  03 Mai 2017                              </span>
+            <br><p class="bigt">poème:
+                        <br><br>Un feu inextinguible<br>
+S'écoule de ses crocs<br>
+Sa lame qui se dresse détruit<br>
+Par le feu le champ de bataille<br>
+Révélant la silhouette d'un ami</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+
+
+       <div id="season1-content" class="row season-content active" itemscope itemprop="season" itemtype="http://schema.org/TVSeason">
+          <meta itemprop="startDate" content="2004-10-05">
+        <div class="col-lg-3 season-img">
+      <div class="image-crop">
+                <img class="resizeimg3"src="https://cdn1.booknode.com/book_cover/1004/mod11/bleach_tome_74_the_death_and_the_strawberry-1004427-264-432.jpg" alt="Bleach">
+                <a href="#" class="season-watched-btn watched-btn btn " data-season="1">
+        </a>
+      </div>
+    </div>
+    <ul class="list-unstyled episode-list col-lg-9">
+                        <li id="episode-item-155071" class="row episode-wrapper odd">
+        <div class="col-sm-10 infos">
+          <div class="row">
+              <span class="episode-nb-label">
+                74              &emsp;</span>
+            
+          
+              <span class="episode-name">
+                The Death And The Strawberry           &emsp;&emsp; </span>
+            
+              <span class="episode-air-date">
+                                  06 Septembre 2017                              </span>
+            <br><p class="bigt">poème:
+                        <br><br>Même invisible<br>
+Nous n'interromprons pas<br>
+Notre marche...</p>
+          </div>
+        </div>
+        <div class="actions col-sm-2">
+          <div class="row">
+            </a>
+          </div>
+        </div>
+    </div>
+      </li> <!-- // .episode-wrapper -->
+</div class=textcenter>
+
+    </body>
+</html>

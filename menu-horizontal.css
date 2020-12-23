@@ -1,0 +1,161 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.fra
+{
+  color: #fff;
+  background-color: #333;
+  transition: all 1.5s ease-out;
+}
+.fra:hover,
+.fra:focus {
+  color: #333;
+  background-color: #fff;
+}
+nav li .fra {
+  display: grid;
+  padding: 6px 0 6px;
+  background-color: #333;
+  width: 150px;
+}
+nav  ul li 
+{ 
+	float:left;
+	list-style: none;
+	width: 10em;
+}
+nav  ul ul 
+{
+	display:none;
+	width:150px;
+}
+nav  ul ul 
+{
+	display:none;
+	width:150px;
+}
+li.sousmenu
+{
+	display: block;
+}
+nav  li.sousmenu .fra:hover,nav  li.sousmenu .fra:force
+{
+  color: #333;
+  background-color: #fff;
+}
+nav  ul.niveau1 li.sousmenu:hover ul.niveau2 
+{
+	display:block;
+}
+.fra
+{
+  width: 10em;
+  border: 1px solid #fff;
+  border-radius: 18px;
+  padding: 8px ;
+  text-align: center;
+  text-decoration: none;
+  font: bold 12px Verdana;
+}
+#scrollmenu
+{
+	overflow-x: hidden;
+	overflow-y: scroll;
+	width :10em;
+	height: 12em;
+}
+p, iframe, br, nav 
+{
+	position: absolute;
+}
+nav  
+{
+	z-index: 1;
+}
+.tome1
+{
+	width: 232px;
+}
+.tome
+{
+	margin-right: 9%;
+	border: 2px solid black;
+	padding: 3px;
+	margin-left: 73%;
+	border-radius: 14px;
+}
+.tome2
+{
+	position: relative;
+	width:12em;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+}
+
+.presentation,.presentation1
+{
+	border-radius: 14px;
+	border: 2px solid #333;
+	color: white;
+	text-align: justify;
+	padding: 2px;
+	min-width: 400px;
+	width: 50%;
+	margin: 3px;
+	font-size: 18px;
+}
+@media only screen and (max-width:1080px)
+ {
+	body
+	{
+		zoom: 120%;
+		width: 1366px;
+		height: 768px;
+	}
+}
+
+.img2move,.img2move1
+{
+	resize:;
+	width: 332px;
+	margin-left: 62%;
+}
+.resizeimg3
+{
+
+}
+.presentation1
+{
+	margin-left: 3%;
+	resize:;
+	width :39%;
+}
+.textcenter
+{
+	text-align: center;
+}
+.bigt
+{
+	font-size: 20px;
+}
+.uni1
+{
+	border-radius: 14px;
+	margin: 1em;
+	background-color: grey;
+	text-align: left;
+	color: white;
+	opacity: 88%;
+	padding: 5px;
+	border: 2px solid black;
+	font-size: 20px;
+}
+.draw
+{
+	width: 570px;
+	margin-top: 5%;
+	margin-left: 55%;
+}

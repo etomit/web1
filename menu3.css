@@ -1,0 +1,30 @@
+.cadre{
+background: url(cadre-degrade.png) repeat-x left bottom #FFFFFF; /* image de fond */
+border: 1px solid #CACCCD; /* bordure */
+border-radius: 10px; /* bordure arrondie */
+width: 200px; /* largeur */
+}
+.cadre span{
+border-bottom: 1px solid #CACCCD; /* bordure du bas */
+font-size: 15px; /* taille du texte */
+margin: 0; /* marges ext */
+padding: 5px 0; /* marges int. */      
+text-align: center; /* alignement du texte */
+display : block; /* permet de prendre toute la place */
+}
+.cadre a{
+display: block; /* affichage block (pleine largeur)
+border-bottom: 1px solid #CACCCD; /* bordure du bas */
+color: #02A3D9; /* couleur du texte */
+padding: 5px; /* marges int. */
+text-decoration: none; /* permet de retirer l'heritage de l'effet souligné des liens */
+}
+.cadre a:hover{
+background: #ffffff; /* couleur de fond */
+}
+.cadre a:last-child{
+border: 0; /* pas de bordure pour le dernier lien */
+}
+.cadre a:hover:last-child{
+border-radius: 0 0 10px 10px; /* arrondie lors du survol pour éviter débordement lors de l'application du hover */
+}

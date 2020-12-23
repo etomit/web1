@@ -1,0 +1,10 @@
+body
+{
+	background-image: url("IMAGES/Backgorund.gif");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size:cover;
+	animation-duration: 5s;
+	/*hover = survole*/
+}
